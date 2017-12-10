@@ -64,3 +64,8 @@ def f2(x,a,k,m):
         return k*pow(-1*x-a,m)
     else:
         return 0
+
+
+def equals(a, b):
+    a[0] = b[0]
+    a[1] = b[1]
